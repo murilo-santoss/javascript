@@ -6,6 +6,23 @@ Lógica de programação
 - POO
 - estruturas de dados
 
+
+MANDAMENTO DE PROGRAMAÇÂO
+
+1) ux (user eXperiencia)
+
+
+2) usar o minimo possivel de codigo (variaveis,operadores, comparadores,estruturas de controle)
+para resolver o problema ( lembrar do mercapasso)
+
+3) entender o problema,não asianta sentar na frente do computador se você não sabe
+algoritmo ("receita do bolo")
+conceitos:
+                variaveis
+entrada - processamento - saida 
+
+
+
 GIT e GITHUB
 Comandos básicos do git:
 git config --global user.name "Seu nome"
