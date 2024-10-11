@@ -1,5 +1,5 @@
 /**
- *  Ficha de um alino de academia 
+ *  Ficha de um aluno de academia 
  * @author Murilo Dos Santos 
  */
 
