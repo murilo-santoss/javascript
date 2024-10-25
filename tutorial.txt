@@ -1,3 +1,31 @@
+usuário: t-334031
+senha: G1JTXfK8
+
+usuário: t-354645
+senha: uX34UgPh
+
+# Lógica de programação
+
+# Photshop
+
+# front-end
+- HTML5 e CSS3
+- UX UI
+- JavaScript
+- Frameworks (bootstrap)
+- CMS (wordpress)
+
+# banco de dados
+
+# sistemas desktop
+electron
+
+# back-end (Java ou php)
+
+# testes
+
+# pi
+___________________________________
 Lógica de programação
 - variáveis
 - operadores
@@ -7,32 +35,50 @@ Lógica de programação
 - estruturas de dados
 
 
-MANDAMENTO DE PROGRAMAÇÂO
+___________________________________
+MANDAMENTOS DA PROGRAMAÇÃO
 
-1) ux (user eXperiencia)
+1) UX (User eXperience) - desenvolver sempre pensado na experiência do usuário.
 
+Dica de video: maior tapa que o Steve Jobs já deu em um programador
 
-2) usar o minimo possivel de codigo (variaveis,operadores, comparadores,estruturas de controle)
-para resolver o problema ( lembrar do mercapasso)
+2) Usar o mínimo possível de código (variáveis, operadores, comparadores, estruturas
+de controle etc) para resolver o problema (lembrar do marcapasso)
+>=
+maior                       OU                                            igual
+comparador                função lógica                                  comparador
 
-3) entender o problema,não asianta sentar na frente do computador se você não sabe
-algoritmo ("receita do bolo")
-conceitos:
-                variaveis
-entrada - processamento - saida 
+ou
 
+>
+comparador 
 
-
+3) Entender o problema. Não adianta sentar na frente do computador se você não sabe
+resolver o problema.
+Algorítmo ("receita do bolo")
+Conceito:
+           variáveis
+entrada - processamento - saída
+___________________________________
 GIT e GITHUB
+
 Comandos básicos do git:
 git config --global user.name "Seu nome"
 git config --global user.email "seuemail@email.com"
-git clone url_do_repositório (clonar um repositório)
-git status (verificar o status do repositório local)
-git add . (adiciona ao repositório local)
-git commit -m "tutorial" (documentar as alterações)
-git push (enviar ao repositório GitHub)
-git pull (sincroniza as informações do repositório no PC)
+git clone url_do_repositório (Clonar um repositório)
+git add . (Adiciona ao repositório local)
+git commit -m "tutorial" (Documentar as alterações)
+git push (Enviar ao repositório GitHub)
+git status (Verifica ser houve alterações de código)
+git pull (Sincroniza as informações do repositório) no PC
+
+
+Sempre que projeto o projeto for editado em outra maquina: git pull para 
+Para verificar se houve alterações na sua maquina: git status
+Se houve alteração: git add .
+Depois de adicionar no "container" é necessário fechar o containter
+e identificar o que foi guardado/alterado: git commit -m "Descrição objetiva do que foi alterado"
+Agora que foi guardado e identificado só falta enviar para o repositório/Navio: git push
 
 Gerar token GitHub
 1) Settings
@@ -40,84 +86,135 @@ Gerar token GitHub
 3) Token classic
 4) Gerar o token selecionando tudo, guardar o token
 
-____________________________________________________
+________________________________________________________________________________________
+
 Boas práticas na programação
 1) Cabeçalho de documentação
-/**
+Comentário: /**
     Nome do projeto
     Descrição da classe / função
-    @author Professor José de Assis
+    @author Vitor de Assis
     @version 1.0
-*/
+    Link para repositório (OPCIONAL)
+*/ Fim Comentário
 
-2) Nomes de arquivos, variáveis, funções, classes, etc
+2) Nomes de arquivos, variáveis, funções, classes, etc 
 Regras (clean code)
 - Declarar nomes que tenham relação com o problema
-- Não usar espaço, "ç", acentos e caracteres especiais para declaração de nomes (erros internos no programa)
-- Só classes iniciam com letra maiúscula
-- Não iniciar um nome com número
-- Quando for declarar dois nomes usar a técnica do camelo (camel case) - Usar uma letra maiúscula na segunda palavra
-Exemplo
-nomecliente -> nomeCliente
+- Não usar espaço, "ç", acentos e caracteres especiais para delcaração de nomes (Erros internos no programa)
+- Só classes iniciam om letras maiúsculas
+- Constantes e variáveis não iniciar um nome com número
+- Quando for declarar dois nomes usar a técnica do camelo(camel case )
+Exemplo: nomeCliente
 
 
-____________________________________________________
-Comandos básicos do MS-DOS
-cls -> limpar a tela
-dir -> listar arquivos e diretórios
-cd nome_diretório -> entrar no diretório
-cd .. -> voltar par ao diretório anterior
+________________________________________________________________________________________
 
-____________________________________________________
-Node - Plataforma que permite a execução do JavaScript
-fora do navegador (browser)
-https://nodejs.org/  (baixar sempre a versão LTS)
+Comandos básicos do MS-DOS 
+cls -> Limpar
+dir -> Listar arquivos e diretórios(pastas)
+cd "diretorio" -> acessar o diretório 
+cd .. -> voltar para o diretório anterior 
 
-Comandos básicos:
-node -v (versão do node)
 
-Gerenciador de pacote para o node:
-npm está relacionado a pasta do projeto ou seja os pacotes são instalados na raiz do projeto e não no sistema operacional
 
-npm -v (versão do npm)
-npm ls (listar pacotes instalados)
+________________________________________________________________________________________
 
-npm init (iniciar um novo projeto JavaScript)
-   |____ package.json
+Node - Plataforma que permite a execução do JavaScript fora do navegador(Browser)
+https://nodejs.org/pt (Sempre usar a versão LTS-Longo Termo de Serviço)
 
-json (JavaScript Object Notation)
+Comando básicos:
+node -v (Versão do node)
 
-____________________________________________________
-Variáveis e constante:
 
-Uma variável é um espaço na memória do computador onde armazenamos dados que podem ser utilizados e modificados durante a execução de um programa. O nome "variável" vem do fato de que o valor armazenado pode variar ao longo do tempo, conforme o programa roda.
+Gerencidor de pacote para o node
+npm está relacionado a pasta do projeto (ex: JAVASCRITP),
+ caso tenha outro projeto será necessário instalar novamente os pacotes
+https://www.npmjs.com/
+
+npm -v (Versão do NPM)
+npm ls (Listar pacotes instalados)
+
+npm init (Iniciar um novo projeto JavaScript)
+    |_____ package.json
+
+npm i nome_do_pacote (instalar um novo pacote/biblioteca)
+npm r nome_do_pacote (remover um pacote/biblioteca)
+
+
+json = JavaScript Object Notation
+
+________________________________________________________________________________________
+
+Variáveis e Constantes
+
+Uma constante é como uma variável, mas com uma diferença importante: uma vez que você define o valor de uma constante, 
+ele não pode ser alterado durante a execução do programa.
+
+Uma variável é um espaço na memória do computador onde armazenamos dados que podem ser utilizados e modificados durante
+a execução de um programa. O nome "variável" vem do fato de que o valor armazenado pode variar ao longo do tempo, conforme o programa roda.
 
 Por que usar variáveis?
 Para guardar informações que você vai precisar mais tarde.
 Para realizar cálculos ou tomar decisões baseadas em diferentes valores.
-
-
-Uma constante é como uma variável, mas com uma diferença importante: uma vez que você define o valor de uma constante, ele não pode ser alterado durante a execução do programa.
 
 Por que usar constantes?
 Segurança: Se você sabe que um valor não deve ser alterado em seu programa, usar uma constante evita erros.
 Legibilidade: Quando você usa uma constante, deixa claro para quem está lendo o código que aquele valor é fixo e importante.
 Boas práticas: Em muitos casos, é recomendado usar constantes sempre que possível para valores que não precisam mudar, facilitando a manutenção do código.
 
-
 Nas linguagens de programação as variáveis são tipadas ou dinamicamente tipadas
 
-Existem 3 tipos de variáveis:
+Existem 3 tipos de variáveis(independente da linguagem):
 
-String -> Armazena caracteres e números
-Number -> Armazena números inteiros e não inteiros
-Boolean -> true | false
+String -> Caracteres e numeros(Textos em geral)
+Number -> Numeros(Inteiros e decimais)
+Boolean -> Verdadeiro ou Falso (True or False)
 
+ATENÇÃO: No JS uma variável pode ser criada usando let ou var
+var (Obsoleto e inseguro), usar sempre o let
 
-_____________________________________________________
+________________________________________________________________________________________
+
 Comandos JavaScript (Sintaxe)
-console.log() -> escrever no console
+
+console.log() -> Escrever n console
 console.clear() -> Limpar a tela do console
-const -> criar(declarar) uma constante
-let -> criar(declarar) uma variável
-typeof() -> verificar o tipo de variável
+const -> Criar(declarar) uma constante
+let -> Criar(declarar) uma variável
+typeof() -> Verificar o tipo de variável
+
+
+
+
+
+switch case (uso e variável numérica (número inteiro))
+
+switch(variável){
+    case 1:
+        // código caso o valor da variável seja 1
+        break
+    case 2:
+        // código caso o valor da variável seja 2
+        break
+    defalt: 
+        //opcional, o código será executado se nenhum caso for definido
+        break
+
+}
+
+Estruturas de controle - laços de repetições
+
+for(let i = 1; i < 10; i++){
+    // o código será repetido enquanto a condição for verdadeira
+}
+
+// Laço com número de repetições definidas
+// let i = 1 (início)
+// i < 10 (condição)
+// i ++ (incremento) i-- (decremento)
+
+uso do laço for
+1) Percorrer uma estrutura de dados (importantes)
+2) Simplificar o codigo (arduino)
+3) Fazer calculos levando em conta a variavel interna do laço
