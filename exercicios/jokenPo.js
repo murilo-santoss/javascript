@@ -11,7 +11,7 @@ console.clear()
 
 // Variáveis
 let jogador, computador
-
+do {
 // Cabeçalho
 
 console.log("_____JoKenPo_____")
@@ -53,8 +53,6 @@ switch (computador) {
         break
 }
 
-// Lógica para determinar o vencedor ou declarar empate
-
 if(jogador === computador){
     console.log("EMPATE")
 } else if(jogador === 1 && computador === 3 || jogador === 2 && computador === 1 || jogador === 3 && computador === 2){
@@ -62,3 +60,11 @@ if(jogador === computador){
 } else{
     console.log("Computador VENCEU")
 }
+
+console.log(" voce quer jogar de novo s/n")
+opcao =input.question("")
+} while (opcao !== "n");
+
+// Lógica para determinar o vencedor ou declarar empate
+
+
